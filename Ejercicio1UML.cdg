@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Ejercicio1UML">
+  <ClassDiagramComponents>
+    <Class name="Pedido" package="" visibility="public" xPosition="106.0" yPosition="193.0">
+      <Fields>
+        <Field name="Fecha" type="Int" visibility="private"/>
+        <Field name="Cantidad" type="int" visibility="private"/>
+        <Field name="Precio" type="float" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="despacharlo" returnType="void" visibility="public"/>
+        <Method name="untitledMethod" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Producto" package="" visibility="public" xPosition="418.0" yPosition="193.0">
+      <Fields>
+        <Field name="cantidad" type="int" visibility="private"/>
+        <Field name="precio" type="float" visibility="private"/>
+        <Field name="valor" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Cliente" package="" visibility="public" xPosition="689.0" yPosition="193.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="direccion" type="string" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
